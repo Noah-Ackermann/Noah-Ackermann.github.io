@@ -1,0 +1,22 @@
+body {
+    background-color: #404040;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: lightgray;
+    text-align: center;
+}
+
+.assign {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+
+}
+
+.assign img {
+    width: 1000px;
+    margin: 10px;
+}
