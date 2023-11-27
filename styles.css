@@ -1,16 +1,22 @@
 body {
     background-color: #404040;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
     color: lightgray;
     text-align: center;
+    width: 100%;
+    display: block;
 }
 
 h1:hover {
     color: hotpink;
     text-align: center;
+    width: 100%;
+    display: block;
 }
 
 a {
@@ -26,8 +32,10 @@ a:hover {
     background-color: lightgray;
     margin: 10px;
     padding: 10px;
-    display: flex;
     border-radius: 20px;
+    width: 20%;
+    display: block;
+    box-shadow: 8px 8px black;
 }
 
 .assign img {
@@ -40,6 +48,6 @@ a:hover {
 .assign img:hover {
     width: 200px;
     margin: 10px;
-    border: 3px dashed hotpink;
+    border: 2px dashed hotpink;
     
 }
